@@ -37,9 +37,6 @@ jobs:
         with:
           images: keytelematics/docker-dotnetcore-sdk-aws
       
-      - name: Image Architecture
-        run: echo "Arch = $(uname -m)"
-
       - name: Build and push Docker image
         uses: docker/build-push-action@v2
         with:
