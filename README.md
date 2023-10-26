@@ -11,3 +11,4 @@ docker build -t keytelematics/docker-dotnetcore-sdk-aws .
 ## Dependencies
 
 - ffmpeg
+- curl
