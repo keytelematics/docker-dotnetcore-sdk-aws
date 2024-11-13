@@ -44,8 +44,8 @@ jobs:
           context: .
           platforms: linux/arm64,linux/amd64
           push: true
-          tags:
-            - keytelematics/docker-dotnetcore-sdk-aws:latest
-            - keytelematics/docker-dotnetcore-sdk-aws:7
-            - keytelematics/docker-dotnetcore-sdk-aws:7.0
+          tags: |
+            keytelematics/docker-dotnetcore-sdk-aws:latest
+            keytelematics/docker-dotnetcore-sdk-aws:7
+            keytelematics/docker-dotnetcore-sdk-aws:7.0
           labels: ${{ steps.meta.outputs.labels }}
